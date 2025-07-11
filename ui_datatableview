@@ -1,0 +1,177 @@
+# -*- coding: utf-8 -*-
+
+################################################################################
+## Form generated from reading UI file 'datatableviewLjEYKT.ui'
+##
+## Created by: Qt User Interface Compiler version 5.15.2
+##
+## WARNING! All changes made in this file will be lost when recompiling UI file!
+################################################################################
+
+from PySide6.QtCore import *
+from PySide6.QtGui import *
+from PySide6.QtWidgets import *
+
+from datatableview import DataTableView
+
+import resources_rc
+
+class Ui_Form(object):
+    def setupUi(self, Form):
+        if not Form.objectName():
+            Form.setObjectName(u"Form")
+        Form.resize(983, 917)
+        Form.setAutoFillBackground(False)
+        self.frame = QFrame(Form)
+        self.frame.setObjectName(u"frame")
+        self.frame.setGeometry(QRect(0, 0, 981, 901))
+        self.frame.setStyleSheet(u"QFrame {\n"
+"    background-color: rgb(255, 255, 255);\n"
+"}\n"
+"QWidget{\n"
+"	color: rgb(0, 0, 0);\n"
+"	font: 10pt \"Segoe UI\";\n"
+"}\n"
+"")
+        self.frame.setFrameShape(QFrame.NoFrame)
+        self.frame.setFrameShadow(QFrame.Raised)
+        self.frame.setLineWidth(0)
+        self.verticalLayoutWidget_3 = QWidget(self.frame)
+        self.verticalLayoutWidget_3.setObjectName(u"verticalLayoutWidget_3")
+        self.verticalLayoutWidget_3.setGeometry(QRect(0, 0, 981, 771))
+        self.verticalLayout_3 = QVBoxLayout(self.verticalLayoutWidget_3)
+        self.verticalLayout_3.setObjectName(u"verticalLayout_3")
+        self.verticalLayout_3.setContentsMargins(0, 0, 0, 0)
+        self.scrollArea_2 = QScrollArea(self.frame)
+        self.scrollArea_2.setObjectName(u"scrollArea_2")
+        self.scrollArea_2.setGeometry(QRect(0, 0, 981, 901))
+        self.scrollArea_2.setStyleSheet(u"QScrollArea{\n"
+"    border:0px solid #838486;  \n"
+"\n"
+"}\n"
+"")
+        self.scrollArea_2.setLineWidth(0)
+        self.scrollArea_2.setWidgetResizable(True)
+        self.scrollAreaWidgetContents_3 = QWidget()
+        self.scrollAreaWidgetContents_3.setObjectName(u"scrollAreaWidgetContents_3")
+        self.scrollAreaWidgetContents_3.setGeometry(QRect(0, 0, 981, 901))
+        self.tableView = DataTableView(self.scrollAreaWidgetContents_3)
+        self.tableView.setObjectName(u"tableView")
+        self.tableView.setGeometry(QRect(0, 50, 981, 851))
+        self.tableView.setSelectionMode(QAbstractItemView.ExtendedSelection)
+        self.tableView.setSelectionBehavior(QAbstractItemView.SelectRows)
+        self.tableView.setShowGrid(True)
+        self.contentTopBg = QFrame(self.scrollAreaWidgetContents_3)
+        self.contentTopBg.setObjectName(u"contentTopBg")
+        self.contentTopBg.setGeometry(QRect(0, 0, 991, 50))
+        self.contentTopBg.setMinimumSize(QSize(0, 50))
+        self.contentTopBg.setMaximumSize(QSize(16777215, 50))
+        self.contentTopBg.setStyleSheet(u"QFrame{background-color:white;}")
+        self.contentTopBg.setFrameShape(QFrame.NoFrame)
+        self.horizontalLayout = QHBoxLayout(self.contentTopBg)
+        self.horizontalLayout.setSpacing(0)
+        self.horizontalLayout.setObjectName(u"horizontalLayout")
+        self.horizontalLayout.setContentsMargins(0, 0, 10, 0)
+        self.rightButtons = QFrame(self.contentTopBg)
+        self.rightButtons.setObjectName(u"rightButtons")
+        self.rightButtons.setMinimumSize(QSize(0, 28))
+        self.rightButtons.setStyleSheet(u"QPushButton{background-color:transparent}\n"
+"QFrame {\n"
+"	background-color:white;\n"
+"    border: 0px solid black;\n"
+"    transition: margin-left 0.5s;\n"
+"}\n"
+"QPushButton:hover {\n"
+"    background-color: rgba(121, 115, 127, 55);\n"
+"}\n"
+"")
+        self.rightButtons.setFrameShape(QFrame.NoFrame)
+        self.horizontalLayout_2 = QHBoxLayout(self.rightButtons)
+        self.horizontalLayout_2.setSpacing(5)
+        self.horizontalLayout_2.setObjectName(u"horizontalLayout_2")
+        self.horizontalLayout_2.setContentsMargins(0, 0, 0, 0)
+        self.leftBox = QFrame(self.rightButtons)
+        self.leftBox.setObjectName(u"leftBox")
+        sizePolicy = QSizePolicy(QSizePolicy.Expanding, QSizePolicy.Preferred)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.leftBox.sizePolicy().hasHeightForWidth())
+        self.leftBox.setSizePolicy(sizePolicy)
+        self.leftBox.setStyleSheet(u"")
+        self.leftBox.setFrameShape(QFrame.NoFrame)
+        self.progressBar = QProgressBar(self.leftBox)
+        self.progressBar.setObjectName(u"progressBar")
+        self.progressBar.setGeometry(QRect(805, 9, 120, 31))
+        self.progressBar.setStyleSheet(u"QProgressBar {\n"
+"                border: 0px solid grey;\n"
+"                border-radius: 5px;\n"
+"                text-align: center;\n"
+"                background-color: rgb(255, 255, 255);\n"
+"            }\n"
+"QProgressBar::chunk {\n"
+"                background-color: rgb(189, 147, 249);\n"
+"            }")
+        self.progressBar.setValue(0)
+        self.progressBar.setTextVisible(False)
+        self.label_2 = QLabel(self.leftBox)
+        self.label_2.setObjectName(u"label_2")
+        self.label_2.setGeometry(QRect(0, 0, 61, 41))
+        self.label_2.setPixmap(QPixmap(u"../VisualEnvironment/icon/icon.png"))
+        self.label_2.setScaledContents(True)
+        self.label_3 = QLabel(self.leftBox)
+        self.label_3.setObjectName(u"label_3")
+        self.label_3.setGeometry(QRect(80, 10, 701, 41))
+
+        self.horizontalLayout_2.addWidget(self.leftBox)
+
+        self.minimizeAppBtn = QPushButton(self.rightButtons)
+        self.minimizeAppBtn.setObjectName(u"minimizeAppBtn")
+        self.minimizeAppBtn.setMinimumSize(QSize(28, 28))
+        self.minimizeAppBtn.setMaximumSize(QSize(28, 28))
+        self.minimizeAppBtn.setCursor(QCursor(Qt.PointingHandCursor))
+        icon = QIcon()
+        icon.addFile(u"../VisualEnvironment/icon/\u6700\u5c0f\u5316.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.minimizeAppBtn.setIcon(icon)
+        self.minimizeAppBtn.setIconSize(QSize(20, 20))
+
+        self.horizontalLayout_2.addWidget(self.minimizeAppBtn)
+
+        self.closeAppBtn = QPushButton(self.rightButtons)
+        self.closeAppBtn.setObjectName(u"closeAppBtn")
+        self.closeAppBtn.setMinimumSize(QSize(28, 28))
+        self.closeAppBtn.setMaximumSize(QSize(28, 28))
+        self.closeAppBtn.setCursor(QCursor(Qt.PointingHandCursor))
+        icon1 = QIcon()
+        icon1.addFile(u"../VisualEnvironment/icon/\u5173\u95ed.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.closeAppBtn.setIcon(icon1)
+        self.closeAppBtn.setIconSize(QSize(20, 20))
+
+        self.horizontalLayout_2.addWidget(self.closeAppBtn)
+
+
+        self.horizontalLayout.addWidget(self.rightButtons)
+
+        self.scrollArea_2.setWidget(self.scrollAreaWidgetContents_3)
+
+        self.retranslateUi(Form)
+
+        QMetaObject.connectSlotsByName(Form)
+    # setupUi
+
+    def retranslateUi(self, Form):
+        Form.setWindowTitle(QCoreApplication.translate("Form", u"Form", None))
+#if QT_CONFIG(whatsthis)
+        Form.setWhatsThis(QCoreApplication.translate("Form", u"<html><head/><body><p><br/></p></body></html>", None))
+#endif // QT_CONFIG(whatsthis)
+        self.label_2.setText("")
+        self.label_3.setText(QCoreApplication.translate("Form", u"VisualData APP-UI for viusal data,based on Python.", None))
+#if QT_CONFIG(tooltip)
+        self.minimizeAppBtn.setToolTip(QCoreApplication.translate("Form", u"Minimize", None))
+#endif // QT_CONFIG(tooltip)
+        self.minimizeAppBtn.setText("")
+#if QT_CONFIG(tooltip)
+        self.closeAppBtn.setToolTip(QCoreApplication.translate("Form", u"Close", None))
+#endif // QT_CONFIG(tooltip)
+        self.closeAppBtn.setText("")
+    # retranslateUi
+

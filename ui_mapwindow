@@ -1,0 +1,207 @@
+# -*- coding: utf-8 -*-
+
+################################################################################
+## Form generated from reading UI file 'mapwindowSWJavY.ui'
+##
+## Created by: Qt User Interface Compiler version 5.15.2
+##
+## WARNING! All changes made in this file will be lost when recompiling UI file!
+################################################################################
+
+from PySide2.QtCore import *
+from PySide2.QtGui import *
+from PySide2.QtWidgets import *
+
+from mapview import MapView
+
+import resources_rc
+
+class Ui_Form(object):
+    def setupUi(self, Form):
+        if not Form.objectName():
+            Form.setObjectName(u"Form")
+        Form.resize(1220, 940)
+        self.frame = QFrame(Form)
+        self.frame.setObjectName(u"frame")
+        self.frame.setGeometry(QRect(9, 9, 1201, 921))
+        self.frame.setStyleSheet(u"QFrame{background-color:white}\n"
+"QWidget{\n"
+"	color: rgb(0, 0, 0);\n"
+"	font: 10pt \"Segoe UI\";\n"
+"}")
+        self.frame.setFrameShape(QFrame.StyledPanel)
+        self.frame.setFrameShadow(QFrame.Raised)
+        self.frame_5 = QFrame(self.frame)
+        self.frame_5.setObjectName(u"frame_5")
+        self.frame_5.setGeometry(QRect(0, 0, 1201, 50))
+        self.frame_5.setMaximumSize(QSize(16777215, 50))
+        self.frame_5.setStyleSheet(u"QPushButton{background-color:transparent}\n"
+"QFrame {\n"
+"	background-color:white;\n"
+"    border: 0px solid black;\n"
+"    transition: margin-left 0.5s;\n"
+"}\n"
+"QPushButton:hover {\n"
+"    background-color: rgba(121, 115, 127, 55);\n"
+"}\n"
+"")
+        self.frame_5.setFrameShape(QFrame.StyledPanel)
+        self.frame_5.setFrameShadow(QFrame.Raised)
+        self.pushButton_7 = QPushButton(self.frame_5)
+        self.pushButton_7.setObjectName(u"pushButton_7")
+        self.pushButton_7.setGeometry(QRect(1160, 10, 31, 28))
+        icon = QIcon()
+        icon.addFile(u"../VisualEnvironment/icon/\u5173\u95ed.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.pushButton_7.setIcon(icon)
+        self.pushButton_8 = QPushButton(self.frame_5)
+        self.pushButton_8.setObjectName(u"pushButton_8")
+        self.pushButton_8.setGeometry(QRect(1130, 10, 31, 28))
+        icon1 = QIcon()
+        icon1.addFile(u"../VisualEnvironment/icon/\u6700\u5c0f\u5316.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.pushButton_8.setIcon(icon1)
+        self.label_2 = QLabel(self.frame_5)
+        self.label_2.setObjectName(u"label_2")
+        self.label_2.setGeometry(QRect(1, 4, 61, 41))
+        self.label_2.setPixmap(QPixmap(u"../VisualEnvironment/icon/icon.png"))
+        self.label_2.setScaledContents(True)
+        self.label_3 = QLabel(self.frame_5)
+        self.label_3.setObjectName(u"label_3")
+        self.label_3.setGeometry(QRect(71, 5, 701, 41))
+        self.graphicsView = MapView(self.frame)
+        self.graphicsView.setObjectName(u"graphicsView")
+        self.graphicsView.setGeometry(QRect(2, 50, 1201, 871))
+        self.frame_2 = QFrame(self.frame)
+        self.frame_2.setObjectName(u"frame_2")
+        self.frame_2.setGeometry(QRect(4, 220, 21, 341))
+        self.frame_2.setStyleSheet(u"QPushButton{background-color:transparent;}\n"
+"QPushButton:hover {\n"
+"    background-color: rgba(121, 115, 127, 55);\n"
+"}")
+        self.frame_2.setFrameShape(QFrame.StyledPanel)
+        self.frame_2.setFrameShadow(QFrame.Raised)
+        self.pushButton = QPushButton(self.frame_2)
+        self.pushButton.setObjectName(u"pushButton")
+        self.pushButton.setGeometry(QRect(-1, 41, 19, 29))
+        icon2 = QIcon()
+        icon2.addFile(u"../VisualEnvironment/icon/\u641c\u7d22.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.pushButton.setIcon(icon2)
+        self.pushButton_2 = QPushButton(self.frame_2)
+        self.pushButton_2.setObjectName(u"pushButton_2")
+        self.pushButton_2.setGeometry(QRect(-1, 117, 19, 29))
+        icon3 = QIcon()
+        icon3.addFile(u"../VisualEnvironment/icon/\u6846\u90091.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.pushButton_2.setIcon(icon3)
+        self.pushButton_3 = QPushButton(self.frame_2)
+        self.pushButton_3.setObjectName(u"pushButton_3")
+        self.pushButton_3.setGeometry(QRect(-1, 193, 19, 29))
+        icon4 = QIcon()
+        icon4.addFile(u"../VisualEnvironment/icon/\u591a\u8fb9\u5f62.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.pushButton_3.setIcon(icon4)
+        self.pushButton_4 = QPushButton(self.frame_2)
+        self.pushButton_4.setObjectName(u"pushButton_4")
+        self.pushButton_4.setGeometry(QRect(0, 310, 19, 29))
+        icon5 = QIcon()
+        icon5.addFile(u"../VisualEnvironment/icon/\u4e09\u89d2\u5f62\u5de6.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.pushButton_4.setIcon(icon5)
+        self.pushButton_5 = QPushButton(self.frame)
+        self.pushButton_5.setObjectName(u"pushButton_5")
+        self.pushButton_5.setGeometry(QRect(0, 530, 21, 28))
+        self.pushButton_5.setStyleSheet(u"QPushButton{background-color:transparent;}\n"
+"QPushButton:hover {\n"
+"    background-color: rgba(121, 115, 127, 55);\n"
+"}")
+        icon6 = QIcon()
+        icon6.addFile(u"../VisualEnvironment/icon/\u4e09\u89d2\u5f62-\u53f3.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.pushButton_5.setIcon(icon6)
+        self.frame_3 = QFrame(self.frame)
+        self.frame_3.setObjectName(u"frame_3")
+        self.frame_3.setGeometry(QRect(25, 220, 0, 111))
+        self.frame_3.setMaximumSize(QSize(200, 16777215))
+        self.frame_3.setMouseTracking(True)
+        self.frame_3.setFocusPolicy(Qt.StrongFocus)
+        self.frame_3.setAcceptDrops(True)
+        self.frame_3.setInputMethodHints(Qt.ImhMultiLine)
+        self.frame_3.setFrameShape(QFrame.NoFrame)
+        self.frame_3.setFrameShadow(QFrame.Raised)
+        self.layoutWidget = QWidget(self.frame_3)
+        self.layoutWidget.setObjectName(u"layoutWidget")
+        self.layoutWidget.setGeometry(QRect(10, 10, 161, 101))
+        self.verticalLayout = QVBoxLayout(self.layoutWidget)
+        self.verticalLayout.setObjectName(u"verticalLayout")
+        self.verticalLayout.setContentsMargins(0, 0, 0, 0)
+        self.comboBox_2 = QComboBox(self.layoutWidget)
+        self.comboBox_2.setObjectName(u"comboBox_2")
+        self.comboBox_2.setEditable(True)
+
+        self.verticalLayout.addWidget(self.comboBox_2)
+
+        self.comboBox_3 = QComboBox(self.layoutWidget)
+        self.comboBox_3.setObjectName(u"comboBox_3")
+        self.comboBox_3.setEditable(True)
+
+        self.verticalLayout.addWidget(self.comboBox_3)
+
+        self.verticalLayoutWidget = QWidget(self.frame)
+        self.verticalLayoutWidget.setObjectName(u"verticalLayoutWidget")
+        self.verticalLayoutWidget.setGeometry(QRect(19, 240, 161, 101))
+        self.verticalLayout_2 = QVBoxLayout(self.verticalLayoutWidget)
+        self.verticalLayout_2.setSpacing(0)
+        self.verticalLayout_2.setObjectName(u"verticalLayout_2")
+        self.verticalLayout_2.setContentsMargins(0, 0, 0, 0)
+        self.frame_4 = QFrame(self.verticalLayoutWidget)
+        self.frame_4.setObjectName(u"frame_4")
+        self.frame_4.setMaximumSize(QSize(0, 16777215))
+        self.frame_4.setStyleSheet(u"")
+        self.frame_4.setFrameShape(QFrame.StyledPanel)
+        self.frame_4.setFrameShadow(QFrame.Raised)
+        self.layoutWidget1 = QWidget(self.frame_4)
+        self.layoutWidget1.setObjectName(u"layoutWidget1")
+        self.layoutWidget1.setGeometry(QRect(20, 6, 121, 91))
+        self.verticalLayout_3 = QVBoxLayout(self.layoutWidget1)
+        self.verticalLayout_3.setObjectName(u"verticalLayout_3")
+        self.verticalLayout_3.setContentsMargins(0, 0, 0, 0)
+        self.comboBox = QComboBox(self.layoutWidget1)
+        self.comboBox.setObjectName(u"comboBox")
+        self.comboBox.setEditable(True)
+
+        self.verticalLayout_3.addWidget(self.comboBox)
+
+        self.comboBox_4 = QComboBox(self.layoutWidget1)
+        self.comboBox_4.setObjectName(u"comboBox_4")
+        self.comboBox_4.setEditable(True)
+
+        self.verticalLayout_3.addWidget(self.comboBox_4)
+
+        self.pushButton_6 = QPushButton(self.layoutWidget1)
+        self.pushButton_6.setObjectName(u"pushButton_6")
+        self.pushButton_6.setStyleSheet(u"QPushButton{background-color:transparent;}\n"
+"QPushButton:hover {\n"
+"    background-color: rgba(121, 115, 127, 55);\n"
+"}")
+
+        self.verticalLayout_3.addWidget(self.pushButton_6)
+
+
+        self.verticalLayout_2.addWidget(self.frame_4)
+
+
+        self.retranslateUi(Form)
+
+        QMetaObject.connectSlotsByName(Form)
+    # setupUi
+
+    def retranslateUi(self, Form):
+        Form.setWindowTitle(QCoreApplication.translate("Form", u"Form", None))
+        self.pushButton_7.setText("")
+        self.pushButton_8.setText("")
+        self.label_2.setText("")
+        self.label_3.setText(QCoreApplication.translate("Form", u"VisualData APP-UI for viusal data,based on Python.", None))
+        self.pushButton.setText("")
+        self.pushButton_2.setText("")
+        self.pushButton_3.setText("")
+        self.pushButton_4.setText("")
+        self.pushButton_5.setText("")
+        self.comboBox_2.setPlaceholderText("")
+        self.pushButton_6.setText(QCoreApplication.translate("Form", u"\u786e\u5b9a", None))
+    # retranslateUi
+
